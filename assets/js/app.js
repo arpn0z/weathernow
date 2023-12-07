@@ -1,7 +1,7 @@
 /**
  * @license MIT
- * @copyright codewithsadee 2023 All rights reserved
- * @author codewithsadee <mohammadsadee24@gmail.com>
+ * @copyright 2005650 & 2028154 2023 All rights reserved
+ * @author 2005650 & 2028154 <2005650@kiit.ac.in> <2028154@kiit.ac.in>
  */
 
 'use strict';
@@ -235,28 +235,29 @@ export const updateWeather = function (lat, lon) {
 
                 <div class="card card-sm highlight-card two">
                     <h3 class="title-3">Sunrise & Sunset</h3>
-                    <div class="card-list">
-                        <div class="card-item">
-                            <span class="m-icon">clear_day</span>
-                            <div>
-                                <p class="label-1">Sunrise</p>
+                    <div class='wrapper'>
+                        <div class="card-list">
+                            <div class="card-item">
+                                <span class="m-icon">clear_day</span>
+                                <div class = "label-1">
+                                    <p class="label-1">Sunrise</p>
 
-                                <p class="title-1">${module.getTime(sunriseUnixUTC, timezone)}</p>
-                                
+                                    <p class="title-1">${module.getTime(sunriseUnixUTC, timezone)}</p>
+                                    
+                                </div>
                             </div>
-                        </div>
-                        <div class="card-item">
-                            <span class="m-icon">clear_night</span>
-                            <div>
-                                <p class="label-1">Sunset</p>
+                            <div class="card-item">
+                                <span class="m-icon">clear_night</span>
+                                <div class = "label-1">
+                                    <p class="label-1">Sunset</p>
 
-                                <p class="title-1">${module.getTime(sunsetUnixUTC, timezone)}</p>
-                                
+                                    <p class="title-1">${module.getTime(sunsetUnixUTC, timezone)}</p>
+                                    
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
                 <div class="card card-sm highlight-card">
 
                     <h3 class="title-3">Humidity</h3>
@@ -375,7 +376,7 @@ export const updateWeather = function (lat, lon) {
                 " width="48" height="48" loading="lazy" alt="direction" 
                 class="weather-icon" style="transform: rotate(${windDirection - 100}deg)">
 
-                <p class="body-3">${parseInt(module.mps_to_kmh(windSpeed))}</p>
+                <p class="body-3">${parseInt(module.mps_to_kmh(windSpeed))}km/h</p>
                 </div>
                 `;
 

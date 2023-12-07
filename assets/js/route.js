@@ -1,8 +1,8 @@
 /**
  * @license MIT
  * @fileoverview Menage all routes
- * @copyright codewithsadee 2023 All rights reserved
- * @author codewithsadee <mohammadsadee24@gmail.com>
+ * @copyright 2005650 and 2028154 2023 All rights reserved
+ * @author 2005650 and 2028154 <2005650@kiit.ac.in> <2028154@kiit.ac.in>
  */
 
 'use strict';

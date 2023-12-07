@@ -1,8 +1,8 @@
 /**
  * @license MIT
  * @fileoverview All api related stuff like api_key, api request etc.
- * @copyright codewithsadee 2023 All rights reserved
- * @author codewithsadee <mohammadsadee24@gmail.com>
+ * @copyright 2005650 & 2028154 2023 All rights reserved
+ * @author Arpan & Aakriti <2005650@kiit.ac.in>
  */
 
 'use strict' ;

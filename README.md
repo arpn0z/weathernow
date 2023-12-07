@@ -1,7 +1,9 @@
 
 # Project Title
 
-A brief description of what this project does and who it's for
+Weathernow is a web application that provides real-time weather information. It offers features such as viewing the current weather, a 5-day forecast, wind speed, temperature for the current day, sunrise and sunset times, air quality, humidity, visibility, feels like temperature, and atmospheric pressure.
+
+The application is developed using HTML, CSS, and JavaScript, and it utilizes the OpenWeather API to fetch weather data for different cities around the world.
 
 ## Tech Stack
 
@@ -50,7 +52,8 @@ Open with live server
 
 ## Authors
 
-- [@codewithsadee](https://www.github.com/codewithsadee)
+- [@Arpn0z](https://www.github.com/Arpn0z)
+- [@aakriti0w0](https://github.com/aakriti0w0)
 
 ## License
 
@@ -58,4 +61,4 @@ Open with live server
 
 ## Support
 
-For support, Join my [Patreon Comunity](https://www.patreon.com/codewithsadee/membership) or Subscribe My [YouTube Channel](https://youtube.com/@codewithsadee).
+free project repo available at the above github links.
